@@ -1,11 +1,12 @@
 <script setup>
 // import HomepageView from './views/HomepageView.vue'
-// import FavoritePlace from './components/FavoritePlace/FavoritePlace.vue'
-import FavoritePlaces from './components/FavoritePlaces/FavoritePlaces.vue'
+
+// import FavoritePlaces from './components/FavoritePlaces/FavoritePlaces.vue'
+import RegistrationForm from './components/Auth/RegistrationForm/RegistrationForm.vue'
 </script>
 
 <template>
-  <div class="bg-white h-screen w-[400px]"><FavoritePlaces /></div>
+  <!-- <div class="bg-white h-screen w-[400px]"><FavoritePlaces /></div> -->
 
-  <!-- <HomepageView /> -->
+  <RegistrationForm @submit="console.log" />
 </template>
