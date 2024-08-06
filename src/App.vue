@@ -4,6 +4,7 @@
 // import FavoritePlaces from './components/FavoritePlaces/FavoritePlaces.vue'
 import RegistrationForm from './components/Auth/RegistrationForm/RegistrationForm.vue'
 import LoginForm from './components/Auth/LoginForm/LoginForm.vue'
+import IModal from './components/IModal/IModal.vue'
 </script>
 
 <template>
@@ -11,4 +12,5 @@ import LoginForm from './components/Auth/LoginForm/LoginForm.vue'
 
   <RegistrationForm @submit="console.log" />
   <LoginForm @submit="console.log" />
+  <IModal />
 </template>
